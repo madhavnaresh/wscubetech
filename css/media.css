@@ -1,14 +1,39 @@
 @media only screen and (min-width:200px) and (max-width:575px){
     .btn-outer{
         position: fixed;
-        bottom: 5px;
+        bottom: 0px;
+        background: white;
         left: 0;
         width: 100%;
         justify-content: center !important;
+        padding: 5px 0;
     }
     .wabtn,.call{
         padding: 7px 15px;
         font-size: 14px;
+    }
+    .registerleft h1{
+        font-size: 28px;
+        text-align: center;
+        line-height: 35px;
+    }
+    .registerleft br{
+        display: none;
+    }
+    .registerleft p,.registerleft ul li{
+        font-size: 16px;
+    }
+    .registerleftbtn{
+        flex-direction: column;
+    }
+    .registerleftbtn button{
+        width: 100%;
+    }
+    .registerleft ul{
+        line-height: 30px;
+    }
+    .rightregister{
+        padding: 20px;
     }
 }
 @media (min-width: 1400px) {
