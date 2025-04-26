@@ -15,6 +15,87 @@
 </head>
 
 <body>
+    <!-- Enquiery Modal -->
+    <div class="modal fade" id="enModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="rightregister p-3">
+                        <h3>Book Your Free Class Now!</h3>
+                        <p>2 days of free demo classes without
+                            paying in advance!</p>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">+91</span>
+                                <input type="text" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <button>Register Now</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Demo Book Modal -->
+    <div class="modal fade" id="bookDemo">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Book a Demo-Class</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="rightregister p-3">
+                        <h3>Book Your Free Class Now!</h3>
+                        <p>2 days of free demo classes without
+                            paying in advance!</p>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <!-- <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">+91</span>
+                                <input type="text" class="form-control" placeholder="Phone">
+                            </div>
+                        </div> -->
+                        <div class="mt-4">
+                            <button>Register Now</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
     <header class="container-fluid py-2 shadow-lg position-sticky top-0 bg-white">
         <div class="container">
             <div class="row align-items-center">
@@ -30,6 +111,7 @@
             </div>
         </div>
     </header>
+    <!-- Register Section -->
     <section class="container-fluid py-lg-5 py-sm-4 py-3">
         <div class="container">
             <div class="row justify-content-between gy-4 align-items-center">
@@ -38,13 +120,16 @@
                         <h1>Career Opportunities <br> in <span>Digital Marketing</span></h1>
                         <p>Digital marketing course so good,you only pay-after-placement</p>
                         <ul class="m-0 p-0">
-                            <li class="mb-0"><i class="fa-solid fa-circle-check"></i> Specialization: Performance Marketing</li>
+                            <li class="mb-0"><i class="fa-solid fa-circle-check"></i> Specialization: Performance
+                                Marketing</li>
                             <li class="mb-0"><i class="fa-solid fa-circle-check"></i> Min salary of Rs 4.5 LPA</li>
                             <li class="mb-0"><i class="fa-solid fa-circle-check"></i> 50 seats only</li>
                         </ul>
                         <div class="registerleftbtn d-flex gap-3 p-2 mt-3">
-                            <button class="btndemo">Book 2 Days Demo</button>
-                            <button class="btncurriculum"><i class="fa-solid fa-download"></i> Download Curriculum</button>
+                            <button data-bs-toggle="modal" data-bs-target="#bookDemo" class="btndemo">Book 2 Days
+                                Demo</button>
+                            <button data-bs-toggle="modal" data-bs-target="#enModal" class="btncurriculum"><i
+                                    class="fa-solid fa-download"></i> Download Curriculum</button>
                         </div>
                     </div>
                 </div>
@@ -53,29 +138,30 @@
                         <h3>Book Your Free Class Now!</h3>
                         <p>2 days of free demo classes without
                             paying in advance!</p>
-                            <div class="mb-3">
-                                <label class="form-label">Name</label>
-                                <input type="text" class="form-control">
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">+91</span>
+                                <input type="text" class="form-control" placeholder="Phone">
                             </div>
-                            <div class="mb-3">
-                                <label class="form-label">Email</label>
-                                <input type="email" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Phone</label>
-                                <div class="input-group">
-                                    <span class="input-group-text" id="basic-addon1">+91</span>
-                                    <input type="text" class="form-control" placeholder="Phone">
-                                </div>
-                            </div>
-                            <div class="mt-4">
-                                <button>Register Now</button>
-                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <button>Register Now</button>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
-        <div class="container contersection shadow-lg mt-5">
+        <!-- Achievements Section -->
+        <div class="container contersection shadow-lg rounded-3">
             <div class="row p-4 row-cols-lg-5 row-cols-1 text-center text-lg-start">
                 <div class="col">
                     <h2>1000+</h2>
@@ -98,6 +184,78 @@
                     <p>Next Batch Starts</p>
                 </div>
             </div>
+        </div>
+    </section>
+    <!-- Key Highlight Section -->
+    <section class="container-fluid highlight-section py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h4 class="high-heading">Key Highlights of the course</h4>
+                    <p class="high-heading-para">Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare
+                        pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+            <div class="row gy-3">
+                <div class="col-12 col-sm-6 col-lg-4 ">
+                    <div class="bg-white p-3 d-flex rounded-3 align-items-center gap-3 highlightitems shadow-lg">
+                        <img src="/images/textassign.svg">
+                        <div class="pt-3">
+                            <h4>Assignments & <br> Module Tests</h4>
+                            <p>Test your knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex rounded-3 align-items-center gap-3 highlightitems shadow-lg">
+                        <img src="/images/starcerti.svg">
+                        <div class="pt-3">
+                            <h4>Industry-recognized <br> Certification</h4>
+                            <p>Stand out to your professional</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex rounded-3 align-items-center gap-3 highlightitems shadow-lg">
+                        <img src="/images/vdoclass.svg">
+                        <div class="pt-3">
+                            <h4>Live Classes & <br> Recorded Lectures</h4>
+                            <p>Best of both worlds of learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex rounded-3 align-items-center gap-3 highlightitems shadow-lg">
+                        <img src="/images/contentdown.svg">
+                        <div class="pt-3">
+                            <h4>Downloadable <br> Content</h4>
+                            <p>With lifetime access</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex rounded-3 align-items-center gap-3 highlightitems shadow-lg">
+                        <img src="/images/projectindus.svg">
+                        <div class="pt-3">
+                            <h4>6 Industry Level <br> Projects</h4>
+                            <p>Get practical skills</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="bg-white p-3 d-flex rounded-3 align-items-center gap-3 highlightitems shadow-lg">
+                        <img src="/images/doubtmsg.svg">
+                        <div class="pt-3">
+                            <h4>4 Live Doubt <br> Clearing Session</h4>
+                            <p>Gain a clear understanding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-3">
+                <button data-bs-toggle="modal" data-bs-target="#bookDemo" class="bookbtn border-0 rounded-2">Book Free Class</button>
+            </div>
+        </div>
         </div>
     </section>
 </body>
