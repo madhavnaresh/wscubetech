@@ -82,6 +82,9 @@
     width: 100%;
     font-weight: 400;
 }
+.contersection{
+    margin-top: 70px;
+}
 .contersection h2{
     font-size: 30px;
     font-weight: 700;
@@ -90,4 +93,34 @@
 .contersection p{
     font-size: 15px;
     font-weight: 400;
+}
+.highlight-section{
+    background: #F7FAFF;
+}
+.high-heading{
+    font-size: 36px;
+    font-weight: 700;
+    color: #0A2134;
+}
+.high-heading-para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0A2134;
+}
+.highlightitems h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.highlightitems p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.bookbtn{
+    padding: 16px 48px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(to right, #0acefe,#2699fb);
+    color: white;
+    font-weight: 700;
 }
