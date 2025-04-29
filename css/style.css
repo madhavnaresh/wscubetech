@@ -125,7 +125,7 @@
     font-weight: 700;
 }
 .Faqsection{
-    background: white;
+    background: #F7FAFF;
 }
 .Faqsection h3{
     font-size: 44px;
@@ -144,4 +144,29 @@
     font-size: 16px;
     font-weight: 400;
     color: #0A2134;
+}
+.curriculumsection h3{
+    font-size: 44px;
+    font-weight: 700;
+    color: #0A2134;
+}
+.tabitemcontent ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    /* gap: 13px; */
+    margin: 10px;
+}
+.tabitemcontent ul li i {
+    color: #2699fb;
+}
+.tabmysection .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: black;
+    background-color: #f2f4f7;
+    border-bottom: 2px solid blue;
+    border-radius: 0;
+    font-weight: 600;
+}
+.btnaccordion .accordion-button:not(.collapsed){
+    background-color: white;
 }
