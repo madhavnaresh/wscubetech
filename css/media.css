@@ -55,6 +55,28 @@
         font-size: 15px;
         padding: 12px 0px;
     }
+    .curriculumsection h3{
+        font-size: 28px;    
+        text-align: start;
+    }
+    .curriculumsection p{
+        font-size: 14px;
+        text-align: start;
+    }
+    .curriculumsection ul li{
+        text-align: start;
+    }
+    .Faqsection h3{
+        font-size: 28px;
+    }
+    .Faqsection p{
+        font-size: 14px;
+    }
+    .tabitemcontent ul li{
+        font-size: 14px;  
+        margin: 10px;
+    }
+    
 }
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
