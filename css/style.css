@@ -124,3 +124,24 @@
     color: white;
     font-weight: 700;
 }
+.Faqsection{
+    background: white;
+}
+.Faqsection h3{
+    font-size: 44px;
+    font-weight: 700;
+}
+.Faqsection p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.faques button{
+    font-size: 18px;
+    color: #2699fb;
+    font-weight: 600;
+}
+.faqans{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0A2134;
+}
