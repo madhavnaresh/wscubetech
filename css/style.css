@@ -170,3 +170,29 @@
 .btnaccordion .accordion-button:not(.collapsed){
     background-color: white;
 }
+.careersection h3{
+    font-size: 44px;
+    font-weight: 700;
+}
+.careersection p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.careeritem h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.careeritem p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.careeritem i{
+    color: #2699fb;
+    font-size: 20px;
+    border: 5px solid #F2F4F7;
+    border-radius: 5px;
+    padding: 16px;
+}
+.careertab{
+    border: 2px solid #F2F4F7;
+}

@@ -76,6 +76,15 @@
         font-size: 14px;  
         margin: 10px;
     }
+    .careersection h3{
+        font-size: 20px;
+    }
+    .careersection p{
+        font-size: 14px;
+    }
+    .careeritem{
+        display: inline !important;
+    }
     
 }
 @media (min-width: 1400px) {
