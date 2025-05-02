@@ -1,82 +1,101 @@
-*{
+* {
     font-family: "Inter", sans-serif;
 }
-.headtop{
+
+.headtop {
     z-index: 2;
 }
-.wabtn{
+
+.wabtn {
     border: 1px solid #27AE60;
     padding: 10px 18px;
     color: #27AE60;
     font-size: 16px;
 }
-.wabtn i{
+
+.wabtn i {
     color: #27AE60;
 }
-.wabtn:hover{
+
+.wabtn:hover {
     border: 1px solid #27AE60;
     background: white;
     color: #27AE60;
 }
-.call{
+
+.call {
     color: white;
     padding: 10px 18px;
-    background:linear-gradient(to right, #0acefe,#2699fb);
+    background: linear-gradient(to right, #0acefe, #2699fb);
 }
-.call:hover{
+
+.call:hover {
     color: white;
 }
-.registerleft h1{
+
+.registerleft h1 {
     font-size: 52px;
     font-weight: 700;
 }
-.registerleft h1 span{
+
+.registerleft h1 span {
     color: #2699fb;
     background: url(../images/Vector\ 63.svg) no-repeat bottom;
 }
-.registerleft p{
+
+.registerleft p {
     font-size: 22px;
 }
-.registerleft ul{
+
+.registerleft ul {
     list-style: none;
     line-height: 50px;
 }
-.registerleft ul li{
+
+.registerleft ul li {
     font-size: 20px;
     letter-spacing: 0%;
 }
-.registerleft ul li i{
+
+.registerleft ul li i {
     color: #2699fb;
 }
-.registerleftbtn button{
+
+.registerleftbtn button {
     width: 50%;
     padding: 14px 0px;
     border-radius: 5px;
     border: none;
 }
-.btndemo{
-    background: linear-gradient(to right, #0acefe,#2699fb);
+
+.btndemo {
+    background: linear-gradient(to right, #0acefe, #2699fb);
     color: white;
     font-weight: 700;
 }
-.btncurriculum{
+
+.btncurriculum {
     border: 1px solid #D0D5DD !important;
     background: white;
 }
-.rightregister{
+
+.rightregister {
     padding: 40px;
     border-radius: 8px;
     z-index: 1;
 }
-.rightregister h3{
+
+.rightregister h3 {
     font-size: 18px;
     font-weight: 700;
 }
-.rightregister p{
+
+.rightregister p {
     font-size: small;
 }
-.rightregister button{
-    background: linear-gradient(to right, #0acefe,#2699fb);
+
+.rightregister button {
+    background: linear-gradient(to right, #0acefe, #2699fb);
     font-size: 18px;
     padding: 10px 0;
     color: white;
@@ -85,137 +104,201 @@
     width: 100%;
     font-weight: 400;
 }
-.contersection{
+
+.contersection {
     margin-top: 70px;
 }
-.contersection h2{
+
+.contersection h2 {
     font-size: 30px;
     font-weight: 700;
     color: #2699fb;
 }
-.contersection p{
+
+.contersection p {
     font-size: 15px;
     font-weight: 400;
 }
-.highlight-section{
+
+.highlight-section {
     background: #F7FAFF;
 }
-.high-heading{
+
+.high-heading {
     font-size: 36px;
     font-weight: 700;
     color: #0A2134;
 }
-.high-heading-para{
+
+.high-heading-para {
     font-size: 18px;
     font-weight: 400;
     color: #0A2134;
 }
-.highlightitems h4{
+
+.highlightitems h4 {
     font-size: 20px;
     font-weight: 600;
 }
-.highlightitems p{
+
+.highlightitems p {
     font-size: 15px;
     font-weight: 400;
 }
-.bookbtn{
+
+.bookbtn {
     padding: 16px 48px;
     font-size: 20px;
     border-radius: 8px;
     border: none;
-    background: linear-gradient(to right, #0acefe,#2699fb);
+    background: linear-gradient(to right, #0acefe, #2699fb);
     color: white;
     font-weight: 700;
 }
-.Faqsection{
+
+.Faqsection {
     background: #F7FAFF;
 }
-.Faqsection h3{
+
+.Faqsection h3 {
     font-size: 44px;
     font-weight: 700;
 }
-.Faqsection p{
+
+.Faqsection p {
     font-size: 18px;
     font-weight: 400;
 }
-.faques button{
+
+.faques button {
     font-size: 18px;
     color: #2699fb;
     font-weight: 600;
 }
-.faqans{
+
+.faqans {
     font-size: 16px;
     font-weight: 400;
     color: #0A2134;
 }
-.curriculumsection h3{
+
+.curriculumsection h3 {
     font-size: 44px;
     font-weight: 700;
     color: #0A2134;
 }
-.tabitemcontent ul li{
+
+.tabitemcontent ul li {
     list-style: none;
     font-size: 20px;
     font-weight: 400;
     /* gap: 13px; */
     margin: 10px;
 }
+
 .tabitemcontent ul li i {
     color: #2699fb;
 }
-.tabmysection .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+
+.tabmysection .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     color: black;
     background-color: #f2f4f7;
     border-bottom: 2px solid blue;
     border-radius: 0;
     font-weight: 600;
 }
-.btnaccordion .accordion-button:not(.collapsed){
+
+.btnaccordion .accordion-button:not(.collapsed) {
     background-color: white;
 }
-.careersection h3{
+
+.careersection h3 {
     font-size: 44px;
     font-weight: 700;
 }
-.careersection p{
+
+.careersection p {
     font-size: 18px;
     font-weight: 400;
 }
-.careeritem h4{
+
+.careeritem h4 {
     font-size: 18px;
     font-weight: 600;
 }
-.careeritem p{
+
+.careeritem p {
     font-size: 15px;
     font-weight: 400;
 }
-.careeritem i{
+
+.careeritem i {
     color: #2699fb;
     font-size: 20px;
     border: 5px solid #F2F4F7;
     border-radius: 5px;
     padding: 16px;
 }
-.careertab{
+
+.careertab {
     border: 2px solid #F2F4F7;
 }
-.whysection h4{
+
+.whysection{
+    background: #F7FAFF;
+}
+
+.whysection h4 {
     font-size: 36px;
     font-weight: 700;
 }
-.whysection p{
+
+.whysection p {
     font-size: 18px;
     font-weight: 400;
 }
-.whytab{
+
+.whytab {
     padding: 30px;
     border: 2px solid #F2F4F7;
 }
-.whytab h5{
+
+.whytab h5 {
     font-size: 20px;
     font-weight: 600;
 }
-.whytab p{
+
+.whytab p {
     font-size: 16px;
+    font-weight: 400;
+}
+
+.studentfeed h3 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.studentfeed p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.studenttab {
+    padding: 30px;
+}
+
+.studenttab b {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.studenttab p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.writtenfeed p {
+    font-size: 18px;
     font-weight: 400;
 }
