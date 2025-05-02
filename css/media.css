@@ -93,6 +93,24 @@
     }.whytab h5{
         font-size: 16px;
     }
+    .studentfeed h3{
+        font-size: 22px ;
+    }
+    .studentfeed p{
+        font-size: 14px;
+    }
+    .aboutstudent{
+        flex-direction: column;
+    }
+    .studenttab b{
+        font-size: 16px;
+    }
+    .studenttab p{
+        font-size: 11px;
+    }
+    .writtenfeed p{
+        font-size: 14px;
+    }
     
 }
 @media (min-width: 1400px) {
