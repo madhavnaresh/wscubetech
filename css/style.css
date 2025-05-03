@@ -319,3 +319,11 @@
 .redbus{
     width: 160px !important;
 }
+.rights{
+    background: #0A2540;
+}
+.rights p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
