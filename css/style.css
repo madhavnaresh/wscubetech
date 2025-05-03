@@ -286,6 +286,7 @@
 
 .studenttab {
     padding: 30px;
+    border: 2px solid #f2f4f7;
 }
 
 .studenttab b {
@@ -301,4 +302,20 @@
 .writtenfeed p {
     font-size: 18px;
     font-weight: 400;
+}
+.digitalCompany h4{
+    font-size: 36px;
+    font-weight: 700;
+}
+.companylogo{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.companylogo img{
+    width: 220px;
+    object-fit: contain;
+}
+.redbus{
+    width: 160px !important;
 }
