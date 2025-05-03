@@ -111,6 +111,20 @@
     .writtenfeed p{
         font-size: 14px;
     }
+    .digitalCompany h4{
+        font-size: 22px;
+    }
+    .companylogo{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .companylogo img{
+        width: 160px;
+    }
+    .redbus{
+        width: 120px !important;
+    }
     
 }
 @media (min-width: 1400px) {
