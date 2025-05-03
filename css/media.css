@@ -125,8 +125,16 @@
     .redbus{
         width: 120px !important;
     }
-    
+    .rights{
+        margin-bottom: 30px;
+    }
+    .rights p{
+        font-size: 12px;
+        /* background: yellowgreen; */
+    }
+
 }
+
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1170px;
